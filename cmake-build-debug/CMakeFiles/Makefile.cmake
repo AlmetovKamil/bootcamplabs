@@ -53,4 +53,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/lab2.dir/DependInfo.cmake"
   "CMakeFiles/lab3.dir/DependInfo.cmake"
+  "CMakeFiles/lab4.dir/DependInfo.cmake"
+  "CMakeFiles/lab1.dir/DependInfo.cmake"
   )

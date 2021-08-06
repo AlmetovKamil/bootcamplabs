@@ -154,6 +154,59 @@ lab3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/build
 .PHONY : lab3/fast
 
+#=============================================================================
+# Target rules for targets named lab4
+
+# Build rule for target.
+lab4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab4
+.PHONY : lab4
+
+# fast build rule for target.
+lab4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/build
+.PHONY : lab4/fast
+
+#=============================================================================
+# Target rules for targets named lab1
+
+# Build rule for target.
+lab1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab1
+.PHONY : lab1
+
+# fast build rule for target.
+lab1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1.dir\build.make CMakeFiles/lab1.dir/build
+.PHONY : lab1/fast
+
+lab1.obj: lab1.cpp.obj
+
+.PHONY : lab1.obj
+
+# target to build an object file
+lab1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1.dir\build.make CMakeFiles/lab1.dir/lab1.cpp.obj
+.PHONY : lab1.cpp.obj
+
+lab1.i: lab1.cpp.i
+
+.PHONY : lab1.i
+
+# target to preprocess a source file
+lab1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1.dir\build.make CMakeFiles/lab1.dir/lab1.cpp.i
+.PHONY : lab1.cpp.i
+
+lab1.s: lab1.cpp.s
+
+.PHONY : lab1.s
+
+# target to generate assembly for a file
+lab1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1.dir\build.make CMakeFiles/lab1.dir/lab1.cpp.s
+.PHONY : lab1.cpp.s
+
 lab2.obj: lab2.cpp.obj
 
 .PHONY : lab2.obj
@@ -208,6 +261,33 @@ lab3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/lab3.cpp.s
 .PHONY : lab3.cpp.s
 
+lab4.obj: lab4.cpp.obj
+
+.PHONY : lab4.obj
+
+# target to build an object file
+lab4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/lab4.cpp.obj
+.PHONY : lab4.cpp.obj
+
+lab4.i: lab4.cpp.i
+
+.PHONY : lab4.i
+
+# target to preprocess a source file
+lab4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/lab4.cpp.i
+.PHONY : lab4.cpp.i
+
+lab4.s: lab4.cpp.s
+
+.PHONY : lab4.s
+
+# target to generate assembly for a file
+lab4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/lab4.cpp.s
+.PHONY : lab4.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -216,14 +296,22 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... lab1
 	@echo ... lab2
 	@echo ... lab3
+	@echo ... lab4
+	@echo ... lab1.obj
+	@echo ... lab1.i
+	@echo ... lab1.s
 	@echo ... lab2.obj
 	@echo ... lab2.i
 	@echo ... lab2.s
 	@echo ... lab3.obj
 	@echo ... lab3.i
 	@echo ... lab3.s
+	@echo ... lab4.obj
+	@echo ... lab4.i
+	@echo ... lab4.s
 .PHONY : help
 
 
