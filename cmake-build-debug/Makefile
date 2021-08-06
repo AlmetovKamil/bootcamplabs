@@ -129,6 +129,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named lab1
+
+# Build rule for target.
+lab1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab1
+.PHONY : lab1
+
+# fast build rule for target.
+lab1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1.dir\build.make CMakeFiles/lab1.dir/build
+.PHONY : lab1/fast
+
+#=============================================================================
 # Target rules for targets named lab2
 
 # Build rule for target.
@@ -168,17 +181,17 @@ lab4/fast:
 .PHONY : lab4/fast
 
 #=============================================================================
-# Target rules for targets named lab1
+# Target rules for targets named lab5
 
 # Build rule for target.
-lab1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab1
-.PHONY : lab1
+lab5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab5
+.PHONY : lab5
 
 # fast build rule for target.
-lab1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1.dir\build.make CMakeFiles/lab1.dir/build
-.PHONY : lab1/fast
+lab5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/build
+.PHONY : lab5/fast
 
 lab1.obj: lab1.cpp.obj
 
@@ -288,6 +301,33 @@ lab4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/lab4.cpp.s
 .PHONY : lab4.cpp.s
 
+lab5.obj: lab5.cpp.obj
+
+.PHONY : lab5.obj
+
+# target to build an object file
+lab5.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/lab5.cpp.obj
+.PHONY : lab5.cpp.obj
+
+lab5.i: lab5.cpp.i
+
+.PHONY : lab5.i
+
+# target to preprocess a source file
+lab5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/lab5.cpp.i
+.PHONY : lab5.cpp.i
+
+lab5.s: lab5.cpp.s
+
+.PHONY : lab5.s
+
+# target to generate assembly for a file
+lab5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/lab5.cpp.s
+.PHONY : lab5.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -300,6 +340,7 @@ help:
 	@echo ... lab2
 	@echo ... lab3
 	@echo ... lab4
+	@echo ... lab5
 	@echo ... lab1.obj
 	@echo ... lab1.i
 	@echo ... lab1.s
@@ -312,6 +353,9 @@ help:
 	@echo ... lab4.obj
 	@echo ... lab4.i
 	@echo ... lab4.s
+	@echo ... lab5.obj
+	@echo ... lab5.i
+	@echo ... lab5.s
 .PHONY : help
 
 

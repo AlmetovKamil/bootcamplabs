@@ -6,6 +6,7 @@
       <config projectName="bootcamplabs" targetName="lab2" />
       <config projectName="bootcamplabs" targetName="lab3" />
       <config projectName="bootcamplabs" targetName="lab4" />
+      <config projectName="bootcamplabs" targetName="lab5" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -14,28 +15,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aecee0bd-6963-430e-97e5-92a55b1de86c" name="Default Changelist" comment="In 'lab3.cpp' file there are solutions for task 1 and task 2">
-      <change afterPath="$PROJECT_DIR$/lab1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4.cpp" afterDir="false" />
+    <list default="true" id="aecee0bd-6963-430e-97e5-92a55b1de86c" name="Default Changelist" comment="Added solutions for tasks of lab1 (lab1.cpp) and lab4 (lab4.cpp)">
+      <change afterPath="$PROJECT_DIR$/lab5.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab2.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab2.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab2.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab2.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab3.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab3.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab3.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab3.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab3.dir/lab3.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab3.dir/lab3.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab3.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab3.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab3.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab3.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab3.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab3.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/bootcamplabs.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/bootcamplabs.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lab3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lab3.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,12 +56,7 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
   </component>
-  <component name="RunManager" selected="CMake Application.lab4">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="CMake Application.lab5">
     <configuration name="lab1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="bootcamplabs" TARGET_NAME="lab1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="bootcamplabs" RUN_TARGET_NAME="lab1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -92,6 +77,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lab5" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="bootcamplabs" TARGET_NAME="lab5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="bootcamplabs" RUN_TARGET_NAME="lab5">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -102,6 +92,7 @@
       <item itemvalue="CMake Application.lab2" />
       <item itemvalue="CMake Application.lab3" />
       <item itemvalue="CMake Application.lab4" />
+      <item itemvalue="CMake Application.lab5" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -118,7 +109,9 @@
       <workItem from="1628149795640" duration="52000" />
       <workItem from="1628157775814" duration="2820000" />
       <workItem from="1628169397425" duration="239000" />
-      <workItem from="1628233759158" duration="3034000" />
+      <workItem from="1628233759158" duration="3764000" />
+      <workItem from="1628248960172" duration="861000" />
+      <workItem from="1628250277116" duration="3057000" />
     </task>
     <task id="LOCAL-00001" summary="In 'lab3.cpp' file there are solutions for task 1 and task 2">
       <created>1628111046036</created>
@@ -127,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628111046036</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added solutions for tasks of lab1 (lab1.cpp) and lab4 (lab4.cpp)">
+      <created>1628237393769</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628237393769</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +147,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="In 'lab3.cpp' file there are solutions for task 1 and task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="In 'lab3.cpp' file there are solutions for task 1 and task 2" />
+    <MESSAGE value="Added solutions for tasks of lab1 (lab1.cpp) and lab4 (lab4.cpp)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added solutions for tasks of lab1 (lab1.cpp) and lab4 (lab4.cpp)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -164,8 +165,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/lab4.cpp</url>
-          <line>52</line>
-          <option name="timeStamp" value="7" />
+          <line>58</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
